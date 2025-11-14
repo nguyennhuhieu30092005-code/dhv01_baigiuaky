@@ -1,0 +1,158 @@
+body
+{
+    margin: 0;
+}
+
+/************************Hàng 1**************************************/
+#header1 {
+  width: 100%;
+  background-color: #1b2c65; /* Màu xanh đậm */
+  padding: 0px 0;
+
+}
+
+#menutop {
+  background-color: #1b2c65; 
+  width: 1200px;
+  height: 42px;
+  margin: 0 auto; /* căn giữa trong header */
+  display: flex; /* dùng flex để bố trí .container bên phải */
+  justify-content: flex-end; /* đẩy .container sang phải */
+  align-items: center; /* căn giữa theo chiều dọc */
+  
+}
+
+/* phần container nằm bên phải */
+#menutop .container {
+ 
+  /* padding: 10px 20px;
+  border-radius: 4px; */
+}
+
+#mnu1
+{
+  display: flex;
+  list-style: none;
+}
+#mnu1 li {
+  margin: 0 10px;            /* Khoảng cách giữa các mục */
+}
+
+#mnu1 a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#mnu1 a:hover {
+  background-color: #ffcc80; /* Nền khi hover */
+  color: #000;               /* Đổi màu chữ khi hover */
+ 
+}
+
+
+/**********************Hàng 2********************************/
+
+#header2 {
+  width: 100%;
+  background-color: #fff; /* Màu xanh đậm */
+  padding: 0px 0;
+  height: 79px;
+}
+
+#header2 .content  {
+  height: inherit;
+  width: 1200px;
+  /* background-color: #fff;  */
+  margin: 0 auto; /* căn giữa trong header */
+  display: flex; /* dùng flex để bố trí .container bên phải */
+  justify-content: flex-start; /* đẩy .container sang trái */
+  align-items: center; /* căn giữa theo chiều dọc */
+ 
+}
+
+#logo{
+  width: 182;
+}
+
+/* Bỏ dấu chấm và khoảng cách mặc định */
+#nav_menuchinh ul {
+    list-style: none;          /* Bỏ dấu chấm */
+    margin: 0;                 /* Xóa margin mặc định */
+    padding: 0;                /* Xóa padding mặc định */
+    display: flex;             /* Hiển thị menu theo hàng ngang */
+    justify-content: center;   /* Căn giữa menu */
+    align-items: center;       /* Căn giữa theo chiều dọc */
+    /* background-color: #f2f2f2; */
+     /* Màu nền nhẹ cho menu */
+}
+
+/* Cách trình bày từng mục menu */
+#nav_menuchinh li {
+    margin: 0 15px;            /* Khoảng cách giữa các mục */
+}
+
+/* Liên kết trong menu */
+#nav_menuchinh a {
+    text-decoration: none;     /* Bỏ gạch chân */
+    color: #1b2c65;               /* Màu chữ */
+    font-weight: 600;          /* In đậm nhẹ */
+    padding: 5px 5px;        /* Tạo vùng nhấn */
+    display: block;            /* Giúp padding có hiệu lực */
+    transition: all 0.3s ease; /* Hiệu ứng hover mượt */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+/* Hiệu ứng khi rê chuột */
+#nav_menuchinh a:hover {
+    background-color: #ffcc80; /* Nền khi hover */
+    color: #000;               /* Đổi màu chữ khi hover */
+    border-radius: 5px;        /* Bo tròn nhẹ */
+}
+
+
+/**************************Nội dung*************************/
+#noidung
+{
+    min-height: 600px;
+    background-color: beige;
+}
+
+
+/**************************Footer****************************/
+#footer1 {
+  width: 100%;
+  background-color: #1b2c65; /* Màu xanh đậm */
+  padding: 0px 0;
+  height: 200px;
+
+}
+
+#footer1 .content  {
+  height: inherit;
+  width: 1200px;
+  /* background-color: rgb(236, 153, 218);  */
+  margin: 0 auto; /* căn giữa trong header */
+  display: flex; /* dùng flex để bố trí .container bên phải */
+  justify-content: flex-start; /* đẩy .container sang trái */
+  align-items: center; /* căn giữa theo chiều dọc */
+ 
+}
+
+#lienketnhanh
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+#lienhe
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+
